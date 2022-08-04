@@ -17,6 +17,9 @@
 		9A537CD028984109009D245F /* myTravelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A537CCF28984109009D245F /* myTravelsTests.swift */; };
 		9A537CDA2898410A009D245F /* myTravelsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A537CD92898410A009D245F /* myTravelsUITests.swift */; };
 		9A537CDC2898410A009D245F /* myTravelsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A537CDB2898410A009D245F /* myTravelsUITestsLaunchTests.swift */; };
+		9A840FDB289C4537008847F3 /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A840FDA289C4537008847F3 /* DescriptionViewController.swift */; };
+		9A840FDD289C4594008847F3 /* Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A840FDC289C4594008847F3 /* Description.swift */; };
+		9A840FE1289C5203008847F3 /* AddDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A840FE0289C5203008847F3 /* AddDescriptionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		9A537CD52898410A009D245F /* myTravelsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myTravelsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A537CD92898410A009D245F /* myTravelsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTravelsUITests.swift; sourceTree = "<group>"; };
 		9A537CDB2898410A009D245F /* myTravelsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTravelsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9A840FDA289C4537008847F3 /* DescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
+		9A840FDC289C4594008847F3 /* Description.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Description.swift; sourceTree = "<group>"; };
+		9A840FE0289C5203008847F3 /* AddDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDescriptionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,9 @@
 				9A537CB728984108009D245F /* SceneDelegate.swift */,
 				9A537CB928984108009D245F /* ViewController.swift */,
 				9A537CBB28984108009D245F /* Main.storyboard */,
+				9A840FDC289C4594008847F3 /* Description.swift */,
+				9A840FE0289C5203008847F3 /* AddDescriptionViewController.swift */,
+				9A840FDA289C4537008847F3 /* DescriptionViewController.swift */,
 				9A537CC128984109009D245F /* Assets.xcassets */,
 				9A537CC328984109009D245F /* LaunchScreen.storyboard */,
 				9A537CC628984109009D245F /* Info.plist */,
@@ -261,9 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A840FE1289C5203008847F3 /* AddDescriptionViewController.swift in Sources */,
+				9A840FDD289C4594008847F3 /* Description.swift in Sources */,
 				9A537CBA28984108009D245F /* ViewController.swift in Sources */,
 				9A537CC028984108009D245F /* myTravels.xcdatamodeld in Sources */,
 				9A537CB628984108009D245F /* AppDelegate.swift in Sources */,
+				9A840FDB289C4537008847F3 /* DescriptionViewController.swift in Sources */,
 				9A537CB828984108009D245F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
